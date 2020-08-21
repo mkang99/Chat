@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fb22c6c-5a47-4ee8-a57f-81eec108823f" name="Default Changelist" comment="" />
+    <list default="true" id="9fb22c6c-5a47-4ee8-a57f-81eec108823f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ChatClientEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ChatClientEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ChatServerEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ChatServerEndpoint.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +18,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1gLWuZf9JWmOWsMWRgZqWycSn6l" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -80,22 +88,22 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="805" y="274" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1597902742709" />
-    <state width="2005" height="266" key="GridCell.Tab.0.bottom" timestamp="1597906254898">
+    <state width="2005" height="305" key="GridCell.Tab.0.bottom" timestamp="1598049026213">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="266" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1597906254898" />
-    <state width="2005" height="266" key="GridCell.Tab.0.center" timestamp="1597906254897">
+    <state width="2005" height="305" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1598049026213" />
+    <state width="2005" height="305" key="GridCell.Tab.0.center" timestamp="1598049026213">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="266" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1597906254897" />
-    <state width="2005" height="266" key="GridCell.Tab.0.left" timestamp="1597906254897">
+    <state width="2005" height="305" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1598049026213" />
+    <state width="2005" height="305" key="GridCell.Tab.0.left" timestamp="1598049026213">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="266" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1597906254897" />
-    <state width="2005" height="266" key="GridCell.Tab.0.right" timestamp="1597906254897">
+    <state width="2005" height="305" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1598049026213" />
+    <state width="2005" height="305" key="GridCell.Tab.0.right" timestamp="1598049026213">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="266" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1597906254897" />
+    <state width="2005" height="305" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1598049026213" />
     <state x="695" y="256" key="NewModule_or_Project.wizard" timestamp="1597894709577">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>

@@ -22,8 +22,7 @@ public class ChatServerEndpoint {
     }
 
     @OnMessage
-    public String onMessage(Session session, String message) {
-        System.out.println(message);
+    public void onMessage(Session session, String message) {
         if (message.equals("!quit")) {
             logger.info("Closing the chatroom.");
             try {
@@ -31,17 +30,17 @@ public class ChatServerEndpoint {
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
-        } else if (message.equals("!exit")) {
+        } else if (message.length() > 5 && message.substring(0, 5).equals("!exit")) {
+            messageAll(message.substring(5) + " logged out.");
             chatClients.remove(session);
-            messageAll("User logged out.");
         } else if (message.length() > 8 && message.substring(0, 8).equals("new_user")) {
-            users.put(session.getId(), message.substring(8));
-            System.out.println("New user added");
+            users.put(session.getId(), message.substring(9));
+            logger.info("New user added: " + message.substring(9));
+            messageAll(message.substring(9) + " has joined.");
         } else {
             String finalMessage = String.format("%s: " + message, users.get(session.getId()));
-            return messageAll(message);
+            messageAll(finalMessage);
         }
-        return "start";
     }
 
     @OnClose
@@ -49,16 +48,13 @@ public class ChatServerEndpoint {
         logger.info(String.format("Session %s closed because of %s", session.getId(), closeReason));
     }
 
-    public static String messageAll(String chatMessage) {
+    public static void messageAll(String chatMessage) {
         for (Session s : chatClients) {
             try {
-                System.out.println(chatMessage);
-                System.out.println(s.getId());
                 s.getBasicRemote().sendText(chatMessage);
             } catch (IOException e) {
                 e.printStackTrace();
             }
         }
-        return chatMessage;
     }
 }
